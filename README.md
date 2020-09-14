@@ -25,6 +25,8 @@ $ yarn add react-toastify
   import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
   
+  toast.configure();
+  
   function App(){
     const notify = () => toast("Wow so easy !");
 
